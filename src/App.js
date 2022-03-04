@@ -1,15 +1,17 @@
-import './App.css';
-import React from 'react';
-import Row from './Row';
-import requests from './requests';
-
+import "./App.css";
+import React from "react";
+import Row from "./Row";
+import requests from "./requests";
+import Banner from "./Banner";
+import Nav from "./Nav";
+import "./Nav.css";
+import Router from "./Router";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello  </h1>
-      <Row title="NETFLIX ORIGINALS" fetchUrl = {requests.fetchNetflixOriginals}/> 
-      <Row title="TRENDING NOW" fetchUrl = {requests.fetchTrending}/> 
+    <div>
+      <Router/>
+     
     </div>
   );
 }
