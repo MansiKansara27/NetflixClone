@@ -32,3 +32,19 @@
 	width: 30px;
 	object-fit: contain;
 }
+
+.nav_avatar1{
+	right: 20px;
+	width: 30px;
+	object-fit: contain;
+}
+.chat{
+	position: fixed;
+    display: flex;
+    right: 20px;
+}
+
+.chat h3{
+	padding-right: 10px;
+	color: #fff;
+}
