@@ -84,7 +84,9 @@ export default function SignIn() {
               </a>
             </div>
             <br />
-            <span className="span">New to Netflix?</span>{" "}
+            <Link to="/signup/registration">            <span className="span">New to Netflix?</span>{" "}
+
+            </Link>
             <a target="_blank">Sign up now</a>
             <br />
             <div className="recaptcha">

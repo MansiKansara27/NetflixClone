@@ -4,6 +4,7 @@ import { auth, db } from "./../../firebase";
 import { doc, setDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 const Screen4 = () => {
   const [email, setEmail] = useState(null);
 
@@ -32,7 +33,8 @@ const Screen4 = () => {
           <p className="desc">* Everything on Netflix for one low price.</p>
           <p className="desc">* No ads and no extra fees. Ever.</p>
         </div>
-        <button className="nextBtn">Next</button>
+        <Link to="/signup/regform">
+        <button className="nextBtn">Next</button></Link>
       </div>
     </div>
   );

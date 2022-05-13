@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Screen2 = () => {
   const navigate = useNavigate();
   const onNext = () => {
-    navigate("/signup/regform");
+    navigate("/signup");
   };
   return (
     <div>
