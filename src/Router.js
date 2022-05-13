@@ -6,6 +6,7 @@ import Screen3 from "./user/SignUpScreen/Screen3";
 import Screen4 from "./user/SignUpScreen/Screen4";
 import SignUp from "./user/SignUp";
 import Home from "./home/Home"
+import Chat from "./chat/Chat"
 
 export default function Router() {
   return (
@@ -17,6 +18,7 @@ export default function Router() {
         <Route path="/signup" exact element={<Screen4 />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </BrowserRouter>
   );
