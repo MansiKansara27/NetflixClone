@@ -27,7 +27,7 @@ const Screen3 = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((res) => {
         console.log(res);
-        navigate("/signup");
+        navigate("/home");
       })
       .catch((error) => {
         console.log(error);
@@ -42,7 +42,7 @@ const Screen3 = () => {
         <div className="btns">Sign In</div>
       </div>
       <div className="screen3">
-        <p className="step">STEP 1 OF 3</p>
+        <p className="step">STEP 3 OF 3</p>
         <p className="finish">Create a password to start your membership</p>
         <p className="desc">
           Just a few more steps and you're done! We hate paperwork, too.
